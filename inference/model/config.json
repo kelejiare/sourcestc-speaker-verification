@@ -1,0 +1,25 @@
+{
+  "output_dimension": 3776,
+  "teacher_patch": "lora_duration_patch.pt",
+  "source1_policy": {
+    "full3_alpha": 0.45,
+    "short05_alpha": 0.32,
+    "short10_alpha": 0.25
+  },
+  "source2_policy": {
+    "full3_alpha": 0.6,
+    "short05_alpha": 0.3,
+    "short10_alpha": 0.7,
+    "short05": 0.1090909090909091
+  },
+  "policy_selection": "frozen after dev+nearfar source-aware proxy audit",
+  "fallback": "exact plus anchor plus zero-padded teacher block",
+  "hidden_score_guarantee": false,
+  "model": "SourceSTC speaker verification",
+  "batch_centering": {
+    "minimum_group_size": 8,
+    "teacher_dimension": 256,
+    "source1_lambda": 1.05,
+    "source2_lambda": 1.0
+  }
+}

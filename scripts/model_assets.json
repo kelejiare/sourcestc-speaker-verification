@@ -1,0 +1,57 @@
+[
+  {
+    "path": "model/campplus_cn_en_common.pt",
+    "bytes": 28044640,
+    "sha256": "92f29b94e6948786a26778c9e302525d185bb08c8b9f5252ed98776902840199"
+  },
+  {
+    "path": "model/model_pt.pt",
+    "bytes": 231491236,
+    "sha256": "8cec2b65de56ac2647589b47ec98d7099125f3d98c2f209853433b84d021f9ec"
+  },
+  {
+    "path": "model/redimnet2-b6-vb2-vox2-cnc2-lm.pt",
+    "bytes": 51152991,
+    "sha256": "287365f6f485b19e65e5176554f8f7123bfa8d85185f3d2c040eab51acec9868"
+  },
+  {
+    "path": "model/redimnet2-b6-vb2-vox2-cnc2-ptn.pt",
+    "bytes": 51154245,
+    "sha256": "295b968b39e846d8f4d4126bca51b1d409f765b90cc4478fdc5266ab5417a206"
+  },
+  {
+    "path": "model/redimnet2plus-b6-lmft-robust.pt",
+    "bytes": 50906448,
+    "sha256": "61fdc3835b71a46ee0440d8a75f61039adafd97aef2f85146aed21f65991a369"
+  },
+  {
+    "path": "model/joint_kd_adapter.npz",
+    "bytes": 549998,
+    "sha256": "a221c0ffcdafd6d56b8d15c2c39fb084f6f88025bce6843beee4f230396fad38"
+  },
+  {
+    "path": "model/mobile_kd_adapter.npz",
+    "bytes": 550137,
+    "sha256": "ca8626992836054cda80673eedb95d66604b9a2f5b2430bc9543110e6251c859"
+  },
+  {
+    "path": "model/short_duration_metric_adapter.npz",
+    "bytes": 151465,
+    "sha256": "fbf893e6d77f1bc95ea3ffe6c9d8401fd4744a9eefdae860017b279ac3704340"
+  },
+  {
+    "path": "model/short_duration_pt_adapter.npz",
+    "bytes": 244633,
+    "sha256": "b6376ee48daf7b41204e020bf2a2113dc952d02bf3dafa40d82fafa74d5496ae"
+  },
+  {
+    "path": "model/lora_duration_patch.pt",
+    "bytes": 46376547,
+    "sha256": "5c3dcb32bd6c2f3066d72e6aa9daf6666b0d583b7456a8cfcbeb3b4782733a78"
+  },
+  {
+    "path": "model/w2vbert2-multidomain-speaker-fp16.pt",
+    "bytes": 1173637165,
+    "sha256": "041ebf0fd6ebb22bd259eb315c082817ebcfd911f5d1722e103dfcb8555fd8db"
+  }
+]
